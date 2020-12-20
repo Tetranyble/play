@@ -1,0 +1,19 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "description": "A play ground for html and css",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tetranyble/play.git"
+  },
+  "author": "css, html, playground, fun, coding, learning, css position",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tetranyble/play/issues"
+  },
+  "homepage": "https://github.com/Tetranyble/play#readme"
+}
