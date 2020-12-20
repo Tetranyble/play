@@ -1,4 +1,12 @@
 
+:root{
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
 /**
 * colour pallete
 */
@@ -34,12 +42,83 @@
   html {
     scroll-behavior: smooth;
   }
+  /**
+  * ====================== Layout Section =======================
+  */
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.col-lg-3, .col-md-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.absolute{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    padding: 5px;
+    opacity: 0.7;
+}
+.absolute::after{
+    content: '';
+    background-color: blue;
+
+}
+
+/**
+*============================ site Navigation menu here ======================
+*
+*/
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 18px 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+/** preloader */
+.preloader {
+    background: #171616;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
 }
 
 /**
@@ -56,10 +135,28 @@
     .container {
         max-width: 720px;
     }
+    
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 @media (min-width: 992px){
     .container {
         max-width: 960px;
+    }
+    .col-lg-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
     }
 }
 @media (min-width: 1200px){
