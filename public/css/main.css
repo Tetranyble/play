@@ -1,0 +1,74 @@
+
+/**
+* colour pallete
+*/
+.hot-pink{
+    background-color: #FFAEBC;
+}
+.blue{
+    background-color: #A0E7E5;
+}
+.mint{
+    background-color: #B4F8C8;
+}
+.yellow{
+    background-color: #FBE7C6;
+}
+.ivory{
+    background-color: #EEEDE7;
+}
+.gray{
+    background-color: #868B8E;
+}
+.pewter{
+    background-color: #B9B7BD;
+}
+.seashell{
+    background-color: #E7D2CC;
+}
+/*===== BASE =====*/
+*, ::before, ::after{
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/**
+*======================= Page media query=======================
+* mobile first responsive design
+* adapted from bootstrap framework
+*/
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+
