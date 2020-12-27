@@ -1,64 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playground</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playground</title>
 
-    <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <!-- ===== BOX ICONS ===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
 
-            </nav>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">
+        <a href="#" class="nav__logo">Jimam</a>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i>
         </div>
-    </header>
-    <div class="home mint">
-        <div class="container">
-            <div class="hero-content">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="mb-5 mt-5">
-                            <h1 class="display-4 mb-3">we create your unique story</h1>
-                            <p class="message">we strongly believe that your wedding day
-                            must be all about you, and we go above and
-                            beyond to make your day more than
-                            you could have ever image</p>
-                        </div>
-                        <a href="#" class="btn btn-primary uppercase">Customize</a>
-                        <a href="#" class="btn btn-primary uppercase">See Packages</a>
-                    </div>
-                </div>
-            </div>
-            <div class="relative">
-                <div class="absolute">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="961.5" height="1156.37" viewBox="0 0 961.5 1156.37">
-                        <defs>
-                          <linearGradient id="linear-gradient" x1="0.5" x2="0.76" y2="1" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#dedede"/>
-                            <stop offset="1" stop-color="#f0ecee"/>
-                          </linearGradient>
-                          <clipPath id="clip-path">
-                            <path id="Path_200" data-name="Path 200" d="M1678.989-1126.747c-35.935,19.788-42.232,36.462-216.886,204.188s-200.856,216.184-209.92,361.019,57.574,403.457,386.56,526.435,428.624-50.95,428.981-103.292.205-791.407,0-841.7-54.222-109.986-151.405-146.648S1714.925-1146.535,1678.989-1126.747Z" transform="translate(-1251.405 1148.37)" fill="url(#linear-gradient)"/>
-                          </clipPath>
-                          <linearGradient id="linear-gradient-2" x1="0.156" y1="0.051" x2="0.915" y2="0.955" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#ece9e6"/>
-                            <stop offset="1" stop-color="#fff"/>
-                          </linearGradient>
-                        </defs>
-                        <g id="Group_28" data-name="Group 28" transform="translate(-568 14.37)">
-                          <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(712.968 -14.37)" clip-path="url(#clip-path)">
-                            <image id="wedding" width="876" height="1095" transform="translate(0.032 0.37)" xlink:href="./image/wedding.jpeg"/>
-                          </g>
-                          <path id="Path_201" data-name="Path 201" d="M973.085-984.521c-29.65,13.5-41.682,16.143-69.714,56.759s-32.9,158.084,69.714,241.738,122.49,74.933,188.734,77.5,91.787-35.676,94.053-38.137,7.331-14.829,0-39.367-29.98-51.061-54.392-88.575c-16.063-24.684-15.66-23.978-24.412-50.393-4.145-12.519-6.3-33.253-24.314-67.708C1100.072-993.445,1002.735-998.017,973.085-984.521Z" transform="matrix(0.978, 0.208, -0.208, 0.978, -425.165, 1323.697)" fill="url(#linear-gradient-2)"/>
-                        </g>
-                      </svg>
-                </div>
-            </div>            
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#featured" class="nav__link">Featured</a></li>
+          <li class="nav__item"><a href="#women" class="nav__link">Women</a></li>
+          <li class="nav__item"><a href="#new" class="nav__link">New</a></li>
+          <li class="nav__item"><a href="./shop.html" class="nav__link">Shop</a></li>
+        </ul>
+      </div>
+      <div class="navigation__action">
+        <div class="nav__shop">
+          <i class="bx bx-shopping-bag"></i>
         </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+      </div>
+
+    </nav>
     </div>
-    
+  </header>
+  <div class="home mint">
+    <div class="container relative">
+      <div class="row">
+        <div class="hero-content ">
+          <div class="col-lg-6 col-md-6 z-index-2">
+            <div class="mb-5 mt-17">
+              <h1 class="display-4 mb-3 hero-title">we create your unique story</h1>
+              <p class="hero-text">we strongly believe that your wedding day
+                must be all about you, and we go above and
+                beyond to make your day more than
+                you could have ever image</p>
+            </div>
+            <a href="#" class="btn btn-primary-fill uppercase">Customize</a>
+            <a href="#" class="btn btn-primary-outline uppercase">See Packages</a>
+          </div>
+
+        </div>
+        <div class="svg">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 961.5 1156.37">
+            <defs>
+              <linearGradient id="linear-gradient" x1="0.5" x2="0.76" y2="1" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#dedede"/>
+                <stop offset="1" stop-color="#f0ecee"/>
+              </linearGradient>
+              <clipPath id="clip-path">
+                <path id="Path_200" data-name="Path 200" d="M1678.989-1126.747c-35.935,19.788-42.232,36.462-216.886,204.188s-200.856,216.184-209.92,361.019,57.574,403.457,386.56,526.435,428.624-50.95,428.981-103.292.205-791.407,0-841.7-54.222-109.986-151.405-146.648S1714.925-1146.535,1678.989-1126.747Z" transform="translate(-1251.405 1148.37)" fill="url(#linear-gradient)"/>
+              </clipPath>
+              <linearGradient id="linear-gradient-2" x1="0.156" y1="0.051" x2="0.915" y2="0.955" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#ece9e6"/>
+                <stop offset="1" stop-color="#fff"/>
+              </linearGradient>
+            </defs>
+            <g id="Group_70" data-name="Group 70" transform="translate(-568 14.37)">
+              <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(712.968 -14.37)" clip-path="url(#clip-path)">
+                <image id="pexels-misha-earle-1777843" width="824" height="1235" transform="translate(0.032 -6.63)" xlink:href="./image/wedding1.jpg"/>
+              </g>
+              <path id="Path_201" data-name="Path 201" d="M973.085-984.521c-29.65,13.5-41.682,16.143-69.714,56.759s-32.9,158.084,69.714,241.738,122.49,74.933,188.734,77.5,91.787-35.676,94.053-38.137,7.331-14.829,0-39.367-29.98-51.061-54.392-88.575c-16.063-24.684-15.66-23.978-24.412-50.393-4.145-12.519-6.3-33.253-24.314-67.708C1100.072-993.445,1002.735-998.017,973.085-984.521Z" transform="matrix(0.978, 0.208, -0.208, 0.978, -425.165, 1323.697)" fill="url(#linear-gradient-2)"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="service">
+    <div class="container">
+
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
