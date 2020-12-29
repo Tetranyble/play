@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="513.557" height="505.38" viewBox="0 0 513.557 505.38">
+  <g id="Group_38" data-name="Group 38" transform="translate(-625.074 -1189.778)">
+    <g id="Ellipse_50" data-name="Ellipse 50" transform="translate(692.846 1281.43)" fill="rgba(255,255,255,0.76)" stroke="rgba(255,255,255,0)" stroke-width="1">
+      <circle cx="175.897" cy="175.897" r="175.897" stroke="none"/>
+      <circle cx="175.897" cy="175.897" r="175.397" fill="none"/>
+    </g>
+    <text id="Planning" transform="translate(771.143 1385.565)" fill="#dd5e89" font-size="25" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Planning</tspan></text>
+    <text id="Background_check" data-name="Background check" transform="translate(758.854 1417.139)" fill="#707070" font-size="13" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Background check</tspan></text>
+    <g id="Rectangle_39" data-name="Rectangle 39" transform="translate(745.784 1410.831)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="5.566" height="5.566" stroke="none"/>
+      <rect x="0.5" y="0.5" width="4.566" height="4.566" fill="none"/>
+    </g>
+    <text id="Ongoing_coaching_and_skills_with_an_one-staff_register" data-name="Ongoing coaching and skills
+with an one-staff register" transform="translate(759.413 1438.505)" fill="#707070" font-size="13" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Ongoing coaching and skills</tspan><tspan x="0" y="16">with an one-staff register</tspan></text>
+    <g id="Rectangle_40" data-name="Rectangle 40" transform="translate(745.784 1432.134)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="5.566" height="5.566" stroke="none"/>
+      <rect x="0.5" y="0.5" width="4.566" height="4.566" fill="none"/>
+    </g>
+    <text id="LEARN_MORE" data-name="LEARN MORE" transform="translate(814.347 1530.176)" fill="#f7bb97" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">LEARN MORE</tspan></text>
+    <text id="Ongoing_coaching_and_skills_with_an_one-staff_register-2" data-name="Ongoing coaching and skills
+with an one-staff register" transform="translate(759.413 1475.52)" fill="#707070" font-size="13" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Ongoing coaching and skills</tspan><tspan x="0" y="16">with an one-staff register</tspan></text>
+    <g id="Rectangle_43" data-name="Rectangle 43" transform="translate(745.784 1469.133)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="5.566" height="5.566" stroke="none"/>
+      <rect x="0.5" y="0.5" width="4.566" height="4.566" fill="none"/>
+    </g>
+    <path id="Path_206" data-name="Path 206" d="M2633.027-1067.791c10.557-9.957,72.319-74.937,166.282-45.067s188.452,125.244,192.675,134.677,36.423,40.351,19,122.624-118.772,190.748-148.333,206.993c-29.033,14.149-95.018,53.976-153.612,16.769s-158.364-82.273-183.174-125.768-33.257-79.129-2.639-151.97S2622.469-1057.834,2633.027-1067.791Z" transform="translate(-1878 2311)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="Ellipse_53" data-name="Ellipse 53" transform="translate(640.523 1545.437)" fill="#fff" stroke="#fff" stroke-width="1">
+      <circle cx="8.906" cy="8.906" r="8.906" stroke="none"/>
+      <circle cx="8.906" cy="8.906" r="8.406" fill="none"/>
+    </g>
+    <path id="Path_207" data-name="Path 207" d="M2753.635-1103.695c8.483,0,69.351-22.026,125.456,33.039s85.744,193.51,80.451,247.526-23.289,81.285-58.751,112.75-114.884,48.771-147.156,54.015-99.492,16.781-150.833-34.612-76.746-142.642-75.158-195.608.529-107.506,54.517-155.752C2593.275-1054.924,2745.152-1103.695,2753.635-1103.695Z" transform="translate(-1859.797 2320.55)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_208" data-name="Path 208" d="M2677-1083.592s58.771-38.3,112.247-6.82,127.073,124.329,153.017,187.805-5.824,112.788-11.648,118.559-77.3,89.706-130.25,105.444-106.423,25.181-181.078-15.738-91.068-158.428-91.068-174.69-2.648-90.23,46.593-135.87S2677-1083.592,2677-1083.592Z" transform="translate(-1859.329 2324.505)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="Ellipse_54" data-name="Ellipse 54" transform="translate(998.928 1296.487)" fill="#fff" stroke="#fff" stroke-width="1">
+      <ellipse cx="8.906" cy="8.35" rx="8.906" ry="8.35" stroke="none"/>
+      <ellipse cx="8.906" cy="8.35" rx="8.406" ry="7.85" fill="none"/>
+    </g>
+  </g>
+</svg>
