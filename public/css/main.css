@@ -489,6 +489,19 @@
 .inline{
     display: inline;
 }
+/*====================== POTFOLIO =========================*/
+.potfolio-i{
+    border-radius: 5px;
+    position: relative;
+}
+.potfolio-i > img{
+    border-radius: 5px;
+     
+}
+.potfolio-i:hover{
+    box-shadow: 0 6px 15px rgba(140,152,164,.1);
+}
+
 
 /*====================== Contact Us ============================*/
 .form-group{
