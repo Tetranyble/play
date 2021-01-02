@@ -1,5 +1,7 @@
-$slider-width: 400px;
-$slider-height: 300px;
+:root{
+  --slider-width: 400px;
+  --slider-height: 300px
+}
 
 * { box-sizing: border-box; }
 
@@ -18,16 +20,16 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: $slider-width;
-  height: $slider-height;
+  width: var(--slider-width);
+  height: var(--slider-height);
   box-shadow: 3px 3px 10px rgba(0,0,0,.2);
 }
 
 .wrapper {
   overflow: hidden;
   position: relative;
-  width: $slider-width;
-  height: $slider-height;
+  width: var(--slider-width);
+  height: var(--slider-height);
   z-index: 1;
 }
 
@@ -35,7 +37,7 @@ body {
   display: flex;
   position: relative;
   top: 0;
-  left: -$slider-width;
+  left: -400px;
   width: 10000px;
 }
 
@@ -44,8 +46,8 @@ body {
 }
 
 .slide {
-  width: $slider-width;
-  height: $slider-height;
+  width: var(--slider-width);
+  height: var(--slider-height);
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -56,7 +58,7 @@ body {
   border-radius: 2px;
 }
 
-.slider.loaded {
+/* .slider.loaded {
   .slide:nth-child(2),
   .slide:nth-child(7) { background: #FFCF47 }
   .slide:nth-child(1),
@@ -64,7 +66,7 @@ body {
   .slide:nth-child(3) { background: #3CFF96 }
   .slide:nth-child(4) { background: #a78df5 }
   .slide:nth-child(5) { background: #ff8686 }
-}
+} */
 
 .control {
   position: absolute;

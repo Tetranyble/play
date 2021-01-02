@@ -21,7 +21,7 @@ document.querySelector('body')
 /* var slider = document.getElementById('slider'),
     sliderItems = document.getElementById('slides'),
     prev = document.getElementById('prev'),
-    next = document.getElementById('next'); */
+    next = document.getElementById('next');
 
 function slide(wrapper, items, prev, next) {
   var posX1 = 0,
@@ -135,4 +135,4 @@ function slide(wrapper, items, prev, next) {
   }
 }
 
-/* slide(slider, sliderItems, prev, next); */
+slide(slider, sliderItems, prev, next); */
