@@ -176,25 +176,21 @@
     max-height: 50.625rem;
 }
 .svg{
-    top: -3.5rem;
+    position: absolute;
+    top: -18.3rem;
     width: 100%;
-    right: 13.875rem;
-    max-height: 50.625rem;
-    max-width: 52.063rem;
-    z-index: 5;
-}
-
-.svg svg{
-    height: 100%;
-    width: 100%;
-    max-height: 72.25rem;
-    max-width: 60.063rem;
+    right: -12rem;
+    min-height: 50.625rem;
+    min-width: 47.125rem;
 }
 
 .service{
     min-height: 500px;
     background-color: var(--theme-pink);
     
+}
+.ss{
+    margin-top: 13rem;
 }
 /**================ Service Section*/
 .service-svg{
@@ -212,24 +208,24 @@
 }
 .circle{
     position: absolute;
-    width: 352px;
-    height: 352px;
+    width: 69.56%;
+    height: 74.15%;
     border-radius: 50%;
     background: #FFF;
     opacity: .76;
-    
+    overflow: auto;
 }
 .circle-1{
-    top: 90px;
-    left: 80px;
+    top: 14%;
+    left: 15%;
 }
 .circle-2{
-    top: 77px;
-    left: 97px;
+    top: 12%;
+    left: 16%;
 }
 .circle-3{
-    top: 56px;
-    left: 98px;
+    top: 12%;
+    left: 15%;
 }
 .circle-content{
     margin: 90px 16px 16px 54px;
@@ -279,6 +275,9 @@
 .packages{
     min-height: 720px;
     padding-top: 177px;
+}
+.section-header{
+    margin-bottom: 3rem;
 }
 .section-header > .heads{
     font-size: var(--font-size-46);
@@ -627,6 +626,9 @@
 .form-group .text-h{
     min-height: 7.5rem;
 }
+.col-lg-12 hr{
+    color: #FFF;
+}
 /*=================== Footer line ======================*/
 .footer{
     min-height: 200px;
@@ -727,7 +729,8 @@ img{
 
 .developer > span > a{
     text-align: right;
-    color: #707070;
+    color: #e8ffc0;
+    font-size: 1rem;
 }
 
 .site > .copy-right {
@@ -943,6 +946,9 @@ a {
 .capitalize{
     text-transform: capitalize;
 }
+.mt-13{
+    margin-top: 13rem;
+}
 .mt-17{
     margin-top: 17.188rem;
 }
@@ -1035,15 +1041,16 @@ a {
         order: 1;
     }
     .home-height {
-        height:  50.625rem;
-        max-height: 50.625rem;
+        height:  62rem;
+        max-height: 64rem;
     }
     .svg{
-        top: -3.5rem;
+        position: absolute;
+        top: -13.5rem;
         width: 100%;
-        right: 13.875rem;
-        max-height: 50.625rem;
-        max-width: 52.063rem;
+        right: -15rem;
+        min-height: 65.5rem;
+        min-width: 55.063rem;
     }
 }
 @media (min-width: 992px){
@@ -1081,19 +1088,22 @@ a {
         padding-left: 6.25rem;
        
     }
-    .home-height{
-        height: 67.5rem;
-        max-height: 67.5rem;
+    .home-height {
+        height:  64rem;
+        max-height: 64rem;
     }
-    
     .svg{
         position: absolute;
-        top: -11.375rem;
+        top: -10.5rem;
         width: 100%;
-        right: 0;
-        max-height: 72.25rem;
-        max-width: 60.063rem;
+        right: -15rem;
+        min-height: 65.5rem;
+        min-width: 52.063rem;
     }
+    .ss{
+        margin-top: 17.188rem;
+    }
+    
 }
 @media (min-width: 1200px){
     .container {
@@ -1131,6 +1141,10 @@ a {
         max-height: 72.25rem;
         max-width: 60.063rem;
     }
+    .ss{
+        margin-top: 17.188rem;
+    }
+    
 }
 
 
