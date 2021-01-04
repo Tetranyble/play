@@ -119,11 +119,11 @@
 }
 .svg{
     position: absolute;
-    top: -18.3rem;
+    top: -3rem;
     width: 100%;
-    right: -12rem;
+    /* right: -12rem;
     min-height: 50.625rem;
-    min-width: 47.125rem;
+    min-width: 47.125rem; */
 }
 
 .service{
@@ -155,7 +155,7 @@
     border-radius: 50%;
     background: #FFF;
     opacity: .76;
-    overflow: auto;
+    overflow: hidden;
 }
 .circle-1{
     top: 14%;
@@ -351,7 +351,7 @@
     z-index: 1;
     transform: rotate(45deg);
     bottom: -20px;
-    left: 15%;
+    left: 13%;
     
 }
 .testimony-body h4{
@@ -486,7 +486,6 @@
 
 .contact-us{
     position: relative;
-    padding: 6.125rem 0 6.125rem;
     background-image: url(../image/contact-background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -498,32 +497,23 @@
     box-shadow: 0 6px 20px #DEDEDE;
 }
 
-.mt-24{
-    margin-top: 1.5rem;
-}
-
 .order-1{
     order: 1;
 }
 .order-2{
     order: 2;
 }
+.mb-150{
+    padding-bottom: 6.25rem;
+}
 .border-top-right{
     border-top-right-radius: 180px;
     width: 100%;
-    padding-bottom: 9.375rem;
+    
     background-color: #FFF;
     box-shadow: 0 4px 20px #DEDEDE;
 }
-.pt-90{
-    padding-top: 90px;
-}
-.pb-58{
-    padding-bottom: 58px;
-}
-.pt-100{
-    padding-top: 100px;
-}
+
 .font-pb{
     font-size: var(--font-size-24);
     font-weight: var(--font-weight-semibold);
@@ -661,7 +651,7 @@ img{
     justify-content: flex-end;
     align-items: center;
     margin-left: -16px;
-    margin-right: -16px;
+    margin-right: -8px;
     margin-top: 6.25rem;
     margin-bottom: 2.5rem;
     font-size: var(--font-size-12);
@@ -744,43 +734,6 @@ img{
     padding-right: 2.5rem!important;
   }
 
-
-
-
-/**======================= MARGINS ==========================**/
-.mlr-8{
-    margin-left: .5rem;
-    margin-right: .5rem;
-}
-.mlr-12{
-    margin-left: .75rem;
-    margin-right: .75rem;
-}
-.mlr-16{
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.mlr-24{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-.mlr-36{
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-.m{
-    margin: .5rem;
-}
-/*===================== PADDING =================*/
-.ptb-56{
-    padding-bottom: var(--font-size-56);
-    padding-top: var(--font-size-56);
-}
-.ptb-112{
-    padding-bottom: calc(var(--font-size-56) * 2) ;
-    padding-top: calc(var(--font-size-56) * 2);
-}
 /* ====================== BORDERS ===============*/
 .border-l {
     border-left: 2px solid var(--color-dark);
@@ -912,6 +865,7 @@ a {
 /*========================== MEDIA QUERY ==========================*/
 
 @media (min-width: 576px){
+    
 }
 
 @media (min-width: 768px){
@@ -970,6 +924,9 @@ a {
     .ss{
         margin-top: 17.188rem;
     }
+    .mb-150{
+        padding-bottom: 9.375rem;
+    }
     
 }
 @media (min-width: 1200px){
@@ -1002,6 +959,9 @@ a {
     }
     .ss{
         margin-top: 17.188rem;
+    }
+    .mb-150{
+        padding-bottom: 9.375rem;
     }
     
 }
