@@ -630,6 +630,372 @@
     padding: 6.25rem;
 }
 
+/*-------------------------- Padding Right -----------------------*/
+.pr-4{
+    padding-right: .25rem;
+}
+.pr-8{
+    padding-right: .5rem;
+}
+.pr-12{
+    padding-right: .75rem;
+}
+.pr-16{
+    padding-right: 1rem;
+}
+.pr-20{
+    padding-right: 1.25rem;
+}
+.pr-24{
+    padding-right: 1.5rem;
+}
+.pr-28{
+    padding-right: 1.75rem;
+}
+.pr-32{
+    padding-right: 2rem;
+}
+
+.pr-36{
+    padding-right: 2.25rem;
+}
+.pr-40{
+    padding-right: 2.5rem;
+}
+.pr-44{
+    padding-right: 2.75rem;
+}
+.pr-48{
+    padding-right: 3rem;
+}
+.pr-52{
+    padding-right: 3.25rem;
+}
+.pr-56{
+    padding-right: 3.5rem;
+}
+.pr-60{
+    padding-right: 3.75rem;
+}
+.pr-64{
+    padding-right: 4rem;
+}
+
+.pr-68{
+    padding-right: 4.25rem;
+}
+.pr-72{
+    padding-right: 4.5rem;
+}
+.pr-76{
+    padding-right: 4.75rem;
+}
+.pr-80{
+    padding-right: 5rem;
+}
+.pr-84{
+    padding-right: 5.25rem;
+}
+.pr-88{
+    padding-right: 5.5rem;
+}
+.pr-92{
+    padding-right: 5.75rem;
+}
+.pr-96{
+    padding-right: 6rem;
+}
+.pr-100{
+    padding-right: 6.25rem;
+}
+
+/*-------------------------- Padding Left ------------------------*/
+.pl-4{
+    padding-left: .25rem;
+}
+.pl-8{
+    padding-left: .5rem;
+}
+.pl-12{
+    padding-left: .75rem;
+}
+.pl-16{
+    padding-left: 1rem;
+}
+.pl-20{
+    padding-left: 1.25rem;
+}
+.pl-24{
+    padding-left: 1.5rem;
+}
+.pl-28{
+    padding-left: 1.75rem;
+}
+.pl-32{
+    padding-left: 2rem;
+}
+
+.pl-36{
+    padding-left: 2.25rem;
+}
+.pl-40{
+    padding-left: 2.5rem;
+}
+.pl-44{
+    padding-left: 2.75rem;
+}
+.pl-48{
+    padding-left: 3rem;
+}
+.pl-52{
+    padding-left: 3.25rem;
+}
+.pl-56{
+    padding-left: 3.5rem;
+}
+.pl-60{
+    padding-left: 3.75rem;
+}
+.pl-64{
+    padding-left: 4rem;
+}
+
+.pl-68{
+    padding-left: 4.25rem;
+}
+.pl-72{
+    padding-left: 4.5rem;
+}
+.pl-76{
+    padding-left: 4.75rem;
+}
+.pl-80{
+    padding-left: 5rem;
+}
+.pl-84{
+    padding-left: 5.25rem;
+}
+.pl-88{
+    padding-left: 5.5rem;
+}
+.pl-92{
+    padding-left: 5.75rem;
+}
+.pl-96{
+    padding-left: 6rem;
+}
+.pl-100{
+    padding-left: 6.25rem;
+}
+
+/*-------------------------- Padding Left and Right --------------*/
+.plr-4{
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+.plr-8{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.plr-12{
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+.plr-16{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.plr-20{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.plr-24{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.plr-28{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+.plr-32{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.plr-36{
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+}
+.plr-40{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.plr-44{
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+}
+.plr-48{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.plr-52{
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+}
+.plr-56{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+.plr-60{
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+}
+.plr-64{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.plr-68{
+    padding-left: 4.25rem;
+    padding-right: 4.25rem;
+}
+.plr-72{
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+.plr-76{
+    padding-left: 4.75rem;
+    padding-right: 4.75rem;
+}
+.plr-80{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.plr-84{
+    padding-left: 5.25rem;
+    padding-right: 5.25rem;
+}
+.plr-88{
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+}
+.plr-92{
+    padding-left: 5.75rem;
+    padding-right: 5.75rem;
+}
+.plr-96{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.plr-100{
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+}
+
+/*-------------------------- Padding Top and Bottom --------------*/
+.ptb-4{
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+.ptb-8{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.ptb-12{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.ptb-16{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.ptb-20{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.ptb-24{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.ptb-28{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+}
+.ptb-32{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ptb-36{
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+}
+.ptb-40{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.ptb-44{
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+}
+.ptb-48{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.ptb-52{
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+}
+.ptb-56{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+.ptb-60{
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+.ptb-64{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ptb-68{
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+.ptb-72{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+.ptb-76{
+    padding-top: 4.75rem;
+    padding-bottom: 4.75rem;
+}
+.ptb-80{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.ptb-84{
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
+}
+.ptb-88{
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+.ptb-92{
+    padding-top: 5.75rem;
+    padding-bottom: 5.75rem;
+}
+.ptb-96{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.ptb-100{
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
 /*========================== MISCELLANEOUS AND GENEARL STYLE ======*/
 .btn {
     display: inline-block;
