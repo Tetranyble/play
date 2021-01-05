@@ -115,7 +115,7 @@
     color: #DD5E89;
 }
 .hero-title{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: 'Cormorant';
     font-weight: 600;
     color: #F7BB97;
@@ -141,7 +141,7 @@
 }
 .svg{
     position: absolute;
-    bottom: -30rem;
+    top: 0;
     min-height: 51.313rem;
     
 }
@@ -889,21 +889,43 @@ a {
 @media (min-width: 320px){
     .svg{
         right: -13rem;
-        bottom: -19.6rem;
+        top: 0;
+        height: 51.313rem;
     }
+    .welcome-text {
+        top: 10.813rem;
+    }
+    .mlr-8 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
 }
 @media (min-width: 338px){
-    /* .svg{
+    .svg{
         right: -13rem;
-        bottom: -.8rem;
-    } */
+        top: 0;
+        height: 51.313rem;
+    }
 }
+
+@media (min-width: 353px){
+    .svg {
+        right: -13rem;
+        top: 0;
+        height: 51.313rem;
+    }
+}
+
 @media (min-width: 576px){
     .svg{
         height: 765px;
-        right: -13rem;
-        bottom: -23.9rem;
+        right: -10rem;
+        top: 0;
        
+    }
+    .hero-title {
+        font-size: 3.5rem;
     }
     
 }
@@ -921,8 +943,8 @@ a {
     }
     .svg{
         position: absolute;
-        bottom: -33.4rem;
-        right: -15rem;
+        top: 0;
+        right: -8rem;
         height: 65.688rem;
         min-width: 55.063rem;
     }
@@ -969,7 +991,8 @@ a {
     }
     .svg{
         position: absolute;
-        bottom: -35.7rem;
+        top: 0;
+        right: 0;
     }  
     .ss{
         margin-top: 17.188rem;
@@ -1013,7 +1036,7 @@ a {
         position: absolute;
         height: 72.25rem;
         min-width: 60.063rem;
-        bottom: -44.7rem;
+        top: 0;
         
     }
     .ss{
