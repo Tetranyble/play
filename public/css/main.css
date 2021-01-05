@@ -31,14 +31,22 @@
     font-size: var(--font-size-24);
     font-family: 'Montserrat';
     font-weight: 400;
-    
+    color: #DD5E89;
 }
 .hero-title{
     font-size: 3.5rem;
     font-family: 'Cormorant';
     font-weight: 600;
-    color: var(--color-dark);
+    color: #F7BB97;
     line-height: 1;
+}
+.welcome-banner{
+    height: 47.25rem;
+}
+.welcome-bottom-svg{
+    position: absolute;
+    top: -123px;
+    left: 0;
 }
 @media screen and (max-width: 768px){
     .nav__menu{
@@ -67,6 +75,7 @@
         font-weight: 600;
         line-height: 0.8;
     }
+    
 }
 .nav__close{
     position: absolute;
@@ -119,11 +128,9 @@
 }
 .svg{
     position: absolute;
-    top: -3rem;
-    width: 100%;
-    /* right: -12rem;
-    min-height: 50.625rem;
-    min-width: 47.125rem; */
+    bottom: -30rem;
+    min-height: 51.313rem;
+    
 }
 
 .service{
@@ -862,9 +869,29 @@ a {
     z-index: 9999999;
 }
 
+.welcome-text{
+    top: 15.813rem
+}
 /*========================== MEDIA QUERY ==========================*/
-
+@media (min-width: 320px){
+    .svg{
+        right: -13rem;
+        bottom: -19.6rem;
+    }
+}
+@media (min-width: 338px){
+    /* .svg{
+        right: -13rem;
+        bottom: -.8rem;
+    } */
+}
 @media (min-width: 576px){
+    .svg{
+        height: 765px;
+        right: -13rem;
+        bottom: -27.8rem;
+       
+    }
     
 }
 
@@ -881,13 +908,24 @@ a {
     }
     .svg{
         position: absolute;
-        top: -13.5rem;
-        width: 100%;
+        bottom: -33.4rem;
         right: -15rem;
-        min-height: 65.5rem;
+        height: 65.688rem;
         min-width: 55.063rem;
     }
+    .welcome-banner{
+        height: 60.5rem;
+    }
+    .welcome-text{
+        top: 20rem;
+    }
+    .welcome-bottom-svg{
+        position: absolute;
+        bottom: -5rem;
+        left: 0;
+    }
 }
+
 @media (min-width: 992px){
     .navbar-expand-lg {
         -ms-flex-flow: row nowrap;
@@ -913,21 +951,24 @@ a {
         height:  64rem;
         max-height: 64rem;
     }
+    .welcome-text{
+        top: 22rem;
+    }
     .svg{
         position: absolute;
-        top: -10.5rem;
-        width: 100%;
-        right: -15rem;
-        min-height: 65.5rem;
-        min-width: 52.063rem;
-    }
+        bottom: -35.7rem;
+    }  
     .ss{
         margin-top: 17.188rem;
     }
     .mb-150{
         padding-bottom: 9.375rem;
     }
-    
+    .welcome-bottom-svg{
+        position: absolute;
+        bottom: -5rem;
+        left: 0;
+    }
 }
 @media (min-width: 1200px){
     .order-1{
@@ -948,14 +989,19 @@ a {
         height: 67.5rem;
         max-height: 67.5rem;
     }
+    .welcome-banner{
+        height: 63.5rem;
+    }
+    .welcome-text{
+        top: 24rem;
+    }
     
     .svg{
         position: absolute;
-        top: -11.375rem;
-        width: 100%;
-        right: 0;
-        max-height: 72.25rem;
-        max-width: 60.063rem;
+        height: 72.25rem;
+        min-width: 60.063rem;
+        bottom: -44.7rem;
+        
     }
     .ss{
         margin-top: 17.188rem;
@@ -963,5 +1009,9 @@ a {
     .mb-150{
         padding-bottom: 9.375rem;
     }
-    
+    .welcome-bottom-svg{
+        position: absolute;
+        bottom: -5rem;
+        left: 0;
+    }
 }
