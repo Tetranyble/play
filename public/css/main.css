@@ -141,7 +141,7 @@
 }
 .svg{
     position: absolute;
-    top: 0;
+    top: -3.5rem;
     min-height: 51.313rem;
     
 }
@@ -904,7 +904,7 @@ a {
 @media (min-width: 338px){
     .svg{
         right: -13rem;
-        top: 0;
+        top: -3.5rem;
         height: 51.313rem;
     }
 }
@@ -912,7 +912,7 @@ a {
 @media (min-width: 353px){
     .svg {
         right: -13rem;
-        top: 0;
+        top: -3.5rem;
         height: 51.313rem;
     }
 }
@@ -921,7 +921,7 @@ a {
     .svg{
         height: 765px;
         right: -10rem;
-        top: 0;
+        top: -3.5rem;
        
     }
     .hero-title {
@@ -943,7 +943,7 @@ a {
     }
     .svg{
         position: absolute;
-        top: 0;
+        top: -3.5rem;
         right: -8rem;
         height: 65.688rem;
         min-width: 55.063rem;
@@ -991,8 +991,8 @@ a {
     }
     .svg{
         position: absolute;
-        top: 0;
-        right: 0;
+        top: -3.5rem;
+        right: -8rem;
     }  
     .ss{
         margin-top: 17.188rem;
@@ -1036,7 +1036,8 @@ a {
         position: absolute;
         height: 72.25rem;
         min-width: 60.063rem;
-        top: 0;
+        top: -3.5rem;
+        right: -24rem;
         
     }
     .ss{
