@@ -48,6 +48,12 @@
     top: -123px;
     left: 0;
 }
+.welcome-top-svg{
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+   
+}
 @media screen and (max-width: 768px){
     .nav__menu{
         
